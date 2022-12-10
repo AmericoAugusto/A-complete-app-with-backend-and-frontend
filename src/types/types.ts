@@ -5,4 +5,6 @@ export interface AboutBooks {
     ano?: number ,
     preco: number
     foto?: string
+    excluirClick: () => void;
+
 }
