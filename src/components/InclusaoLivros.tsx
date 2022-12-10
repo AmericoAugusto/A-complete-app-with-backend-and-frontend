@@ -1,6 +1,6 @@
 import { useForm } from "react-hook-form";
 import { useState } from "react";
-import {inAxios} from "../../src/config_axios"
+import {inAxios} from "../config_axios"
 
 const InclusaoLivros = () => {
   // register serve para definir os nomes dos campos do form (e validações)
